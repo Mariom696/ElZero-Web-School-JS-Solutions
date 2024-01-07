@@ -10,10 +10,7 @@ console.log(a.split("", 6));
 console.log(`${a.substr(0, 6)} ${a.substr(11, 6)}`);
 
 console.log(
-  a.charAt(0).toLowerCase() +
-    a.substring(1, a.length - 1).toUpperCase() +
-    a.charAt(a.length - 1).toLowerCase()
-);
+  a.charAt(0).toLowerCase() + a.substring(1, a.length - 1).toUpperCase() + a.charAt(a.length - 1).toLowerCase());
 //---------------------- task 1 -------------------------------
 let userName = "Elzero";
 console.log(userName.slice(3, 4)); // e
