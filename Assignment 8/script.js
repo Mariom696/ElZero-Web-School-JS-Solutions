@@ -1,4 +1,4 @@
-//--------------------switch  challnge -----------------------------
+//------------------------ switch  challnge  -----------------------------
 // let job = "";
 // let salary = 0;
 // switch (job) {
@@ -31,6 +31,7 @@ job === "Manager"
   : job === "Developer" || job === "Designer"
   ? (salary = 7000) && console.log(`the salary is ${salary}`)
   : (salary = 4000 && console.log(`the salary is ${salary}`));
+///////////////////////////////////////
 //--------------------------------------------------------------------
 let holidays = "";
 let money = 0;
